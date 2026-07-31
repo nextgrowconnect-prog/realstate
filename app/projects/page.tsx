@@ -92,7 +92,9 @@ export default function ProjectsPage() {
               >
                 <div>
                   {/* Image */}
-                  <Link href={`/projects/${project.id}`} className="relative block h-56 overflow-hidden">
+                  {/* Square frame: the project renders are portrait or square elevations, so a
+                      wide frame cut the roof and ground off every building. */}
+                  <Link href={`/projects/${project.id}`} className="relative block aspect-square overflow-hidden">
                     <Image
                       src={project.img}
                       alt={project.title}
