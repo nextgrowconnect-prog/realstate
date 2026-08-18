@@ -118,7 +118,7 @@ export default function DalanAvenuePage() {
               priority
               className="object-cover object-center"
             />
-            <div className="hidden md:block absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#091e44] to-transparent pointer-events-none" />
+            <div className="hidden md:block absolute inset-y-0 left-0 w-1/5 bg-gradient-to-r from-[#091e44] via-[#091e44]/40 to-transparent pointer-events-none" />
             <ProjectStatusTag stage="Delivered" className="absolute top-5 right-5 md:top-8 md:right-8" />
           </div>
         </div>
