@@ -25,7 +25,7 @@ const projects: Project[] = [
   { id: 'dalan-greens', title: 'DALAN GREENS', location: 'Mau, Lucknow - UP', type: 'Plots', status: 'Delivered', beds: '1000 - 1500 Sq.ft. Plots', price: 'Contact for Price', img: '/images/greens_hero.png' },
   { id: 'dalan-avenue', title: 'DALAN AVENUE', location: 'Village Lodhan, near Om Villas, Chandmari, Varanasi', type: 'Residential', status: 'Delivered', beds: '3 BHK Duplex', price: 'Contact for Price', img: '/avenue/avenue.png' },
   { id: 'dalan-saubhagyam', title: 'DALAN SAUBHAGYAM', location: 'Ring Road, Varanasi', type: 'Residential', status: 'Delivered', beds: '3 BHK Duplex', price: 'Contact for Price', img: '/shaubhagyam/shubhagyam.png' },
-  { id: 'dalan-samridhi', title: 'DALAN SAMRIDDHI', location: 'Village Kanudih, near Chandmari, Varanasi', type: 'Residential', status: 'Phase - 1 (Under Construction)', beds: '3 BHK Villa', price: 'Contact for Price', img: '/samriddhi/samridhi.png' },
+  { id: 'dalan-samridhi', title: 'DALAN SAMRIDHI', location: 'Village Kanudih, near Chandmari, Varanasi', type: 'Residential', status: 'Phase - 1 (Under Construction)', beds: '3 BHK Villa', price: 'Contact for Price', img: '/samriddhi/samridhi.png' },
   // fit: 'contain' — this card's image is a site-plan brochure, not a building render.
   // Cropping it to the square frame cut the title off the top and the contact band off
   // the bottom, so it is fitted whole instead.
