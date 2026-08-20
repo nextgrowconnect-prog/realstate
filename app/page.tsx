@@ -130,9 +130,7 @@ const welcomeImages = [
   '/welcome/image9.jpeg',
   '/welcome/image10.jpeg',
   '/welcome/image11.jpeg',
-  '/welcome/image12.jpeg',
   '/welcome/image13.jpeg',
-  '/welcome/image14.jpeg',
 ]
 
 export default function HomePage() {
