@@ -20,6 +20,7 @@ import {
   Home,
 } from 'lucide-react'
 import ProjectStatusTag from '@/components/ProjectStatusTag'
+import ZoomableImage from '@/components/ZoomableImage'
 
 const paragraphs = [
   'A life of comfort, pride, and belonging awaits you at Dalan Saubhagyam — nestled in the heart of the ever-evolving city of Varanasi. Our vision is to bring together the warmth of a close-knit community and the strength of quality construction, delivering homes that are not just built with bricks, but with trust.',
@@ -202,12 +203,13 @@ export default function DalanSaubhagyamPage() {
                 <h3 className="text-white">Ground Floor Plan</h3>
               </div>
               <div className="flex-grow bg-white group overflow-hidden">
-                <Image
+                <ZoomableImage
                   src="/shaubhagyam/ground-floor-plan.png"
                   alt="Dalan Saubhagyam Ground Floor Plan"
                   width={800}
                   height={950}
-                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                  imageClassName="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                  hint="Click to enlarge"
                 />
               </div>
             </div>
@@ -218,12 +220,13 @@ export default function DalanSaubhagyamPage() {
                 <h3 className="text-white">First Floor Plan</h3>
               </div>
               <div className="flex-grow bg-white group overflow-hidden">
-                <Image
+                <ZoomableImage
                   src="/shaubhagyam/first-floor-plan.png"
                   alt="Dalan Saubhagyam First Floor Plan"
                   width={800}
                   height={950}
-                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                  imageClassName="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                  hint="Click to enlarge"
                 />
               </div>
             </div>
